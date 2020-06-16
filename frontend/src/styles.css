@@ -1,0 +1,22 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-top: 10px;
+}
+.mainColor {
+  background: #5a2cb8;
+  color: white;
+}
