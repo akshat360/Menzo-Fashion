@@ -44,9 +44,29 @@ const Navbar = ({ history }) => {
                 className="nav-link"
                 to="/products"
               >
-                Product
+                Products
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                style={currentTab(history, '/aboutus')}
+                className="nav-link"
+                to="/aboutus"
+              >
+                About Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                style={currentTab(history, '/contactus')}
+                className="nav-link"
+                to="/contactus"
+              >
+                Contact Us
+              </Link>
+            </li>
+          </ul>
+          <ul className="navbar-nav" style={{ 'margin-left': 'auto' }}>
             <li className="nav-item">
               <Link
                 style={currentTab(history, '/cart')}
@@ -89,7 +109,7 @@ const Navbar = ({ history }) => {
               <li className="nav-item">
                 <Link
                   style={currentTab(history, '/admin/dashboard')}
-                  className="nav-link"
+                  className="nav-link bg-secondary text-white mx-2"
                   to="/admin/dashboard"
                 >
                   Dashboard
@@ -100,7 +120,7 @@ const Navbar = ({ history }) => {
               <li className="nav-item">
                 <Link
                   style={currentTab(history, '/signup')}
-                  className="nav-link"
+                  className="nav-link bg-secondary text-white ml-3 mr-2"
                   to="/signup"
                 >
                   SignUp
@@ -111,7 +131,7 @@ const Navbar = ({ history }) => {
               <li className="nav-item">
                 <Link
                   style={currentTab(history, '/signin')}
-                  className="nav-link"
+                  className="nav-link bg-secondary text-white "
                   to="/signin"
                 >
                   SignIn
@@ -121,7 +141,7 @@ const Navbar = ({ history }) => {
             {isAuthenticated() && (
               <li className="nav-item ">
                 <span
-                  className="nav-link text-danger  bg-danger text-light"
+                  className="nav-link bg-danger text-light"
                   onClick={() => {
                     signout(() => {
                       history.push('/');

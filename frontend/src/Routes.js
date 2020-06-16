@@ -17,6 +17,7 @@ import Cart from './core/Cart';
 import Order from './core/Order';
 import ContactUs from './core/ContactUs';
 import Profile from './user/Profile';
+import AboutUs from './core/AboutUs';
 
 const Routes = () => {
   return (
@@ -24,6 +25,7 @@ const Routes = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/products" component={Products} />
+        <Route exact path="/aboutus" component={AboutUs} />
 
         <Route exact path="/contactus" component={ContactUs} />
         <Route exact path="/signup" component={Signup} />

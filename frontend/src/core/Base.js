@@ -13,10 +13,10 @@ const Base = ({ title = 'Menzo Fashion', description = '', children }) => {
           <p className="lead text-sm text-secondary">{description}</p>
         </div>
         {/*BODY*/}
-        <div>{children}</div>
+        <div className="mb-5">{children}</div>
 
         {/*Footer*/}
-        <footer className="footer mainColor  mt-5 py-3">
+        <footer className="footer mainColor  mt-5 py-3 position-relative">
           <div className=" text-sm text-white text-left pl-3">
             <h5>If you got any questions , Need Help? </h5>
             <Link className="btn btn-warning btn-sm my-2" to="/contactus">

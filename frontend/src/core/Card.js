@@ -73,7 +73,9 @@ export default function Card({
         <img className="card-img-top" src={imageUrl} alt="Product" />
         <div className="card-body">
           <h5 className="card-title">{pname}</h5>
-          <p className="card-text text-sm">{pdescription}</p>
+          <p className=" text-sm-center text-secondary font-weight-lighter ">
+            {pdescription}
+          </p>
           <p className="">&#8377; {pprice}</p>
           {showAddToCart(addtocart)}
           {showRemoveFromCart(removefromcart)}
