@@ -20,7 +20,7 @@ export default function Home() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Welcome to Menzo fashion</h3>
+            <h3>Welcome to Menzo Fashion</h3>
             <p>Fit your Style.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -87,11 +87,12 @@ export default function Home() {
 
   const showProducts = () => (
     <div className="row justify-content-md-center ">
-      {products.map((product, index) => (
-        <div key={index} className="col-4 col-md-auto mb-5">
-          <Card product={product} addtocart={false}></Card>
-        </div>
-      ))}
+      {products.length !== 0 &&
+        products.map((product, index) => (
+          <div key={index} className="col-4 col-md-auto mb-5">
+            <Card product={product} addtocart={false}></Card>
+          </div>
+        ))}
       <div className="col-4 col-md-auto mb-5"></div>
     </div>
   );

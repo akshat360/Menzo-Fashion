@@ -4,14 +4,18 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon server.js",
+    "client-build": "cd client && npm run build",
+    "client-install": "cd client && npm install",
+    "client": "cd client && npm start ",
+    "heroku-postbuild": "npm run client-install && npm run build",
+    "dev": "concurrently -n 'server,client' -c 'red/green' \"nodemon server.js \" \"npm run client \" "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.19.0",
     "braintree": "^2.23.0",
     "cookie-parser": "^1.4.4",
     "cors": "^2.8.5",
@@ -29,5 +33,8 @@
     "npm": "^6.14.5",
     "stripe": "^8.63.0",
     "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
   }
 }

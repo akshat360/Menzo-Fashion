@@ -1,7 +1,7 @@
 import React from 'react';
 import Base from '../core/Base';
 import { Link, Redirect } from 'react-router-dom';
-import { isAuthenticated, signout } from '../user/helper/userapicalls';
+import { isAuthenticated, signout } from './helper/userapicalls';
 
 const Profile = () => {
   const {
