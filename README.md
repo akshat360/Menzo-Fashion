@@ -5,8 +5,10 @@ Technology Used : MERN Stack
 
 Features :
 
+
 Main Pages
 * Home 
+![Screenshot](screenshots/screenshot1.png)
 * Products List (dynamically Rendered from Database)
 * About Us
 * Contact Us

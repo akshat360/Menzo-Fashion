@@ -9,7 +9,8 @@
     "client-install": "cd client && npm install",
     "client": "cd client && npm start ",
     "heroku-postbuild": "npm install && npm run client-install && npm run build",
-    "dev": "concurrently -n 'server,client' -c 'red/green' \"nodemon server.js \" \"npm run client \" "
+    "dev": "concurrently -n 'server,client' -c 'red/green' \"nodemon server.js \" \"npm run client \" ",
+    "prod": "concurrently -n 'server,client' -c 'red/green' \"nodemon server.js \" \"npm run client-build \" "
   },
   "keywords": [],
   "author": "",
