@@ -6,6 +6,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
+const path = require('path');
 
 // Routes
 const authRoutes = require('./routes/auth');
@@ -56,7 +57,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, './client', 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, './client', 'build', 'index.html'));
 });
 
 //Starting a server
