@@ -1,6 +1,8 @@
 # Menzo-Fashion
 A t-shirt selling e-commerce website
 
+https://menzo-fashion.herokuapp.com/
+
 Technology Used : MERN Stack 
 
 Features :
