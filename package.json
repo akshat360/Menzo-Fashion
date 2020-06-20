@@ -1,8 +1,8 @@
 {
-  "name": "projbackend",
+  "name": "menzo-fashion",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
     "client-build": "cd client && npm run build",
