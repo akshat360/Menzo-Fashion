@@ -5,6 +5,12 @@ https://menzo-fashion.herokuapp.com/
 
 Technology Used : MERN Stack 
 
+For Testing :
+Signin with Admin Credentials
+
+ email : a@admin.com
+ password : 12345
+
 Features :
 
 
