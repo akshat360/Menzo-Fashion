@@ -1,4 +1,4 @@
-# Menzo-Fashion
+## Menzo-Fashion
 A t-shirt selling e-commerce website
 
 https://menzo-fashion.herokuapp.com/
@@ -14,62 +14,64 @@ Signin with Admin Credentials
 Features :
 
 
-Main Pages
-* Home 
+## Main Pages
+# Home 
 
 ![Screenshot](screenshots/screenshot1.png)
 ![Screenshot](screenshots/home.png)
 
 
-* Products List (dynamically Rendered from Database)
+# Products List (dynamically Rendered from Database)
 
 ![Screenshot](screenshots/products.png)
 ![Screenshot](screenshots/products1.png)
 
 
-* About Us
+# About Us
 
-* Contact Us
+# Contact Us
 ![Screenshot](screenshots/contactus.png)
 
 
-Admin Panel : 
+# Admin Panel : 
 
 ![Screenshot](screenshots/admin.png)
 
-* Create Category 
+# Create Category 
 
 ![Screenshot](screenshots/createcate.png)
 
-* Manage Category ( Edit , Remove)
+# Manage Category ( Edit , Remove)
 
 ![Screenshot](screenshots/managecate.png)
 
-* Create Product
-* Manage Products  ( Edit , Remove)
+# Create Product
+
+# Manage Products  ( Edit , Remove)
 ![Screenshot](screenshots/manageproduct.png)
 
-* Manage Orders
+# Manage Orders
 
 
-User Features :
-* SignUp, SignIn
+## User Features :
+# SignUp, SignIn
 ![Screenshot](screenshots/signin.png)
 
-* View Profile
+# View Profile
 ![Screenshot](screenshots/profile.png)
 
-* User Panel 
-* View Account Information
+# User Panel 
 
-* View Cart
+# View Account Information
+
+# View Cart
 
 ![Screenshot](screenshots/cart.png)
 ![Screenshot](screenshots/cart1.png)
 ![Screenshot](screenshots/cart3.png)
 
-* View Orders
-* CheckOut Option with Cards/Paypal
+# View Orders
+# CheckOut Option with Cards/Paypal
 
 ![Screenshot](screenshots/payment.png)
 
