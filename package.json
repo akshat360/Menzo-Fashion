@@ -12,7 +12,7 @@
     "dev": "concurrently -n 'server,client' -c 'red/green' \"nodemon server.js \" \"npm run client \" "
   },
   "keywords": [],
-  "author": "",
+  "author": "akshat aggarwal",
   "license": "ISC",
   "engines": {
     "node": "12.15.0",
