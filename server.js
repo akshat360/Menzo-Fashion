@@ -44,7 +44,7 @@ app.use('/api', stripeRoutes);
 app.use('/api', btRoutes);
 
 // Home Page
-app.get('/', (rer, res) => {
+app.get('/api', (rer, res) => {
   res.send('HOME PAGE');
 });
 
